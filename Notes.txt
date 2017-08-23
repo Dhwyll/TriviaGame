@@ -1,0 +1,61 @@
+while there are still questions
+	set an interval to question length
+		show the question
+		show the answers
+		detect which answer was chosen
+		If right
+			reset the interval to answer right length
+			yea stuff
+		else wrong
+			reset the interval to answer wrong length
+			boo stuff
+	if no answer
+		reset interval to answer wrong length
+		boo stuff
+
+
+The first thing Doctor said to Rose was:
+Fantastic!
+Autons!
+Hello!
+Run! *
+
+Which TV show is not broadcast from Satellite Five?
+What Not to Wear
+The Weakest Link
+Eastenders *
+Big Brother
+
+What was the name of the restaurant run by the Clockwork Droids?
+Codardo's
+Mancini *
+Nando's
+Bella
+
+What rank did Danny Pink have when he was in the Army?
+
+Sergeant *
+Major
+Lieutenant
+Private
+
+What circuit is broken in the Tardis, leaving it stuck as a Police Box?
+
+Protean
+Changeling
+Chameleon *
+Cloaking
+
+How many times has the Doctor been married?
+
+One
+Two
+Three *
+Four
+
+Where does Donna Noble work?
+
+H.C. Clemmons
+H.C. Clements *
+H.A. Carmens
+H.D. Callwins

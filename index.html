@@ -1,0 +1,95 @@
+<!doctype html>
+<html>
+	<head>
+		<title>Trivia Game</title>
+		<meta charset="UTF-8">
+		
+		<!-- Added a link to Bootstrap-->
+		<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+		<!-- Link to Google Fonts -->
+		<link href="https://fonts.googleapis.com/css?family=Encode+Sans+Condensed|Monda|Passion+One" rel="stylesheet">
+		
+		<!-- My Style Sheet -->
+		<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+		
+
+	</head>
+	
+	<body>
+		<div class="container" id="clickToStart">
+			<div class="row">
+				<div class="col-lg-6 col-lg-offset-2" id="clickToStartBox">
+					<span class="titleFont">Click to Start</span>
+				</div>
+			</div>
+		</div>
+		<div class="container" id="triviaTitle">
+			<div class="row">
+				<div class="col-lg-10">
+					<span class="titleFont">TOTALLY TRIVIAL TRIVIA</span>
+				</div>
+			</div>
+		</div>
+		<div class="container" id="correctAnswer">
+			<div class="row">
+				<div class="col-lg-8 col-lg-offset-1">
+					<span class="correctAnswerFont" id="correctAnswerText"></span><br>
+					<img id="correctAnswerImage" src="" width="400px">
+				</div>
+			</div>
+		</div>
+		<div class="container" id="gameOver">
+			<div class="row">
+				<div class="col-lg-10 gameOverSection questionFont">
+					<div class="row">
+						<div class="col-lg-12 gameOverSection answerFont" id="firstLine">Here's how you did!</div>
+					</div>
+					<div class="row">
+						<div class="col-lg-12 gameOverSection questionFont" id="secondLine"></div>
+					</div>
+					<div class="row">
+						<div class="col-lg-12 gameOverSection questionFont" id="thirdLine"></div>
+					</div>
+					<div class="row">
+						<div class="col-lg-12 gameOverSection questionFont" id="fourthLine"></div>
+					</div>
+					<div class="row">
+						<div class="col-lg-12 gameOverSection answerFont" id="fifthLine">Try Again?</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="container" id="gameSection">
+			<div class="row">
+				<div class="col-lg-10 secondsSection secondsFont" id="timeLeft">
+					30 seconds left
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-lg-10 questionSection questionFont" id="questionText">
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-lg-10 answerSection answerFont" id="answerText-0">
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-lg-10 answerSection answerFont" id="answerText-1">
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-lg-10 answerSection answerFont" id="answerText-2">
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-lg-10 answerSection answerFont" id="answerText-3">
+				</div>
+			</div>
+		</div>
+		
+		<!-- Added link to the jQuery Library -->
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+		<script src="assets/javascript/app.js"></script>
+	</body>
+</html>

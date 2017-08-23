@@ -1,0 +1,77 @@
+/* Set the style to border-box */
+
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+
+.center-block {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+/* Set the background color to black */
+
+body {
+	background-image: url("../images/background.jpg");
+	color: #999;
+	text-align: center;
+}
+
+#clickToStartBox {
+	font-family: 'Passion One', cursive;
+	font-size: 72pt;
+	margin-top: 400px;
+	border: 1px dotted blue;
+}
+
+#correctAnswer {
+	font-family: 'Passion One', cursive;
+	font-size: 24pt;
+	margin-top: 200px;
+}
+
+
+.titleFont {
+	font-family: 'Passion One', cursive;
+	font-size: 72pt;
+}
+
+.secondsFont {
+	font-size: 24pt;
+	font-family: 'Encode Sans Condensed', sans-serif;
+}
+
+.questionFont {
+	font-family: 'Passion One', cursive;
+	font-size: 24pt;
+}
+
+.answerFont {
+	font-family: 'Monda', sans-serif;
+	font-size: 48pt;
+}
+
+.secondsSection {
+	padding-top: 50px;
+}
+
+.questionSection {
+	padding: 25px 0;
+	font-size: 36pt;
+}
+
+.correctAnswerFont {
+	font-family: 'Passion One', cursive;
+	font-size: 24pt;
+}
+
+.active {
+	background-color: #999;
+	color: #333;
+}
